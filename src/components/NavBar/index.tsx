@@ -7,6 +7,12 @@ function Navbar() {
         <Link to="/home" className="text-2xl font-bold uppercase">
           Farmácia
         </Link>
+        <Link to="/categorias" className="hover:underline">
+          Categorias
+        </Link>
+        <Link to="/cadastroCategoria" className="hover:underline">
+          Cadastrar categoria
+        </Link>
       </div>
     </div>
   );
